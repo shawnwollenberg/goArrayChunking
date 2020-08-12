@@ -1,4 +1,4 @@
-package Arraychunking
+package arraychunking
 
 // --- Directions
 // Given an array and chunk size, divide the array into many subarrays
@@ -10,7 +10,7 @@ package Arraychunking
 // chunk([1, 2, 3, 4, 5], 4) --> [[ 1, 2, 3, 4], [5]]
 // chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
-func Arraychunking(arr []int, size int) (result [][]int) {
+func arrayChunking(arr []int, size int) (result [][]int) {
 	i := 0
 	var chunked [][]int
 	for i < len(arr) {
